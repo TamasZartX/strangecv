@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
+
+body {
+  background-color: rgb(129, 129, 129);
+  color: rgb(25, 62, 139);
+
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Quicksand", sans-serif;
+}
+h1 {
+  margin: 10px 0px;
+}
+
+h2 {
+  margin: 5px 0px;
+}
+
+h4 {
+  margin: 5px 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(25, 116, 139);
+}
+
+.avatar {
+  width: 180px;
+  height: 200px;
+  border-radius: 28px;
+}
+
+.dis {
+  display: flex;
+}
+
+.info {
+  margin: 0px 5px 0px 5px;
+  padding: 10px 15px;
+  background-color: rgb(180, 180, 180);
+  border-radius: 10px;
+}
+
+.con {
+  text-align: center;
+}
+
+.info-text {
+  margin-left: 10px;
+}
+
+.info p {
+  color: rgb(56, 82, 138);
+  margin: 0;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.list {
+  padding-left: 20px;
+}
+
+.container {
+  max-width: 550px;
+  margin: auto;
+}
+
+table {
+  width: 100%;
+}
+
+.block {
+  padding: 10px 15px;
+  background-color: rgb(180, 180, 180);
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.contact {
+  padding: 10px 15px;
+  background-color: rgb(180, 180, 180);
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.f-input input {
+  background-color: rgb(180, 180, 180);
+  border: none;
+  border-bottom: 1px solid rgb(25, 62, 139);
+  width: 100%;
+  color: rgb(25, 116, 139);
+  outline: none;
+  font-family: inherit;
+}
+.f-input textarea {
+  background-color: rgb(180, 180, 180);
+  border: none;
+  border-bottom: 1px solid rgb(25, 62, 139);
+  width: 100%;
+  color: rgb(25, 116, 139);
+  outline: none;
+  font-family: inherit;
+}
+.f-input label {
+  display: block;
+  margin-top: 5px;
+}
+.row {
+  display: flex;
+  margin-bottom: 10px;
+}
+.row > .f-input {
+  width: 50%;
+  margin-right: 15px;
+}
+
+.row > .f-input:last-child {
+  margin-right: 0;
+}
+
+.text {
+  margin-bottom: 15px;
+}
+
+.btn {
+  color: rgb(180, 180, 180);
+  background: rgb(25, 62, 139);
+  padding: 7px 10px;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.btn:hover {
+  background: rgb(25, 116, 139);
+}
+
+@media (max-width: 550px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+  .dis {
+    display: block;
+  }
+  
+}
